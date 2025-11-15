@@ -9,11 +9,6 @@ ros2_ws/build/
 ros2_ws/install/
 ros2_ws/log/
 
-# Output & generated
-outputs/
-ros_outputs/
-
-
 # Data & large files
 data/
 *.pt
