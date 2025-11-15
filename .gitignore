@@ -12,7 +12,7 @@ ros2_ws/log/
 # Output & generated
 outputs/
 ros_outputs/
-*.png
+
 
 # Data & large files
 data/
