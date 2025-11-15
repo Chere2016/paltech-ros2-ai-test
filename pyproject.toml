@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paltech-rumex"
+version = "0.1.0"
+description = "Rumex plant detection utilities built around a YOLO11 segmentation model."
+authors = [{name = "Gebrecherkos", email = "chereg2016@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "opencv-python>=4.8",
+    "ultralytics>=8.2",
+]
+
+[tool.setuptools.packages.find]
+include = ["paltech_rumex"]
